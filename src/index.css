@@ -1,0 +1,187 @@
+html, body {
+    margin:0px;
+    min-height: 100%;
+}
+
+body {
+  background-repeat:no-repeat;
+  background-position: center center;
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: 'GTEAPAC';
+  src: url('./brand/GTEAPAC.otf');
+}
+
+@font-face {
+  font-family: 'ShareTech';
+  src: url('./fonts/ShareTech.ttf');
+}
+
+.white {
+  color: #C6C6C6;
+}
+
+.black {
+  color: #000000;
+}
+
+h1 {
+  font-family: "GTEAPAC", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  padding: 0 10%;
+  display: block;
+  line-height: auto;
+}
+
+h2 {
+  font-family: "GTEAPAC", sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 0 10%;
+ line-height: auto;
+}
+
+h3{
+  font-family: "ShareTech", sans-serif;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0 10%;
+}
+
+h4,
+h5,
+p {
+  font-family: "Forum", sans-serif;
+  color: white;
+  font-size: 24px;
+  line-height: auto;
+  padding: 0 10%;
+  overflow: hidden;
+}
+
+.bm-burger-button {
+  position:fixed;
+   width: 32px;
+   height: 24px;
+   margin: 6rem 1rem;
+  }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #f1f1f1;
+  padding: 1.5em 2.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-overlay {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 36px;
+  width: 36px;
+}
+
+.bm-cross {
+  background: black;
+}
+
+.header h2{
+  padding: 5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.menu h2{
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5%;
+}
+
+.menu_link {
+  display: block;
+  font-family: "Forum",sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 36px;
+  text-align: center;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 4rem 10px;
+
+}
+
+.text_link {
+    text-decoration: underline black;
+}
+
+.text_link:hover {
+    text-decoration: underline white;
+}
+
+.menu_link:hover {
+    color: #ffaa3b;
+}
+
+.menu_link:focus {
+    color: #ffaa3b;
+}
+
+.header{
+  display: inline;
+  vertical-align: middle;
+}
+
+.header h2 {
+  color: white;
+  text-align: right;
+  margin: 0px;
+
+}
+
+.footer {
+background-color: black;
+text-align: center;
+}
+
+.footer p {
+color:white;
+}
+
+.footer h1 {
+color:white;
+}
+
+.footer h3 {
+color:white;
+text-align: center;
+}
+
+.logo{
+	text-align: right;
+  padding: 2rem;
+}
+
+.social-media{
+  display: inline-block;
+  margin: 20px;
+}
+
+ul li{
+  list-style: none;
+}
+
+.display_inline{
+  display: inline-block;
+}

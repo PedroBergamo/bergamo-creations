@@ -1,0 +1,125 @@
+.notfound{
+  text-align: center;
+}
+
+.client{
+    background-color: #000000;
+    text-align: center;
+    padding: 5%;
+}
+
+.client h1{
+  color: white;
+  margin-top: 0;
+}
+
+
+.client h3{
+  color: white;
+  margin-bottom: 0;
+}
+
+
+.client p{
+  color: white;
+  margin-bottom: 0;
+}
+
+.content{
+  display: inline-block;
+  margin: 3%;
+}
+
+.carousel{
+  text-align: center;
+   height: auto;
+   padding: 5%;
+}
+
+.elias{
+  background-color: #19191a;
+}
+
+.everfrost{
+  background-color: #33e28e;
+}
+
+
+.inke{
+  background-color: #a7301c;
+}
+
+.minfloat {
+  background-color: #011722;
+}
+
+.song{
+  padding: 0 10%;
+  margin-top: 5%;
+}
+
+.song h3{
+  text-align: center;
+  margin: 10%;
+  font-size: 36px;
+
+}
+
+.song-card{
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.video{
+  background-color: #13091e;
+}
+
+.link{
+  color: white;
+  text-transform: uppercase;
+}
+
+.video{
+  width : 100%;
+}
+
+.music-page{
+  background-color: black;
+}
+
+.music-page h1{
+  color: white;
+}
+
+.music-row{
+  margin-top: 5%;
+
+}
+.last-column{
+  margin: 0% 0%;
+}
+
+.BookMe h1{
+  text-align: left;
+  padding: 0 10%;
+  color: Black;
+}
+
+.bandcamp{
+  padding: 0 10%;
+  border: 0;
+  height: 5.0rem;
+}
+
+.wallpaper{
+  padding: 10px 10px;
+}
+
+.whitefont h1{
+  color: white;
+}
+
+.whitefont h3{
+  color: white;
+}
