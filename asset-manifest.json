@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a429e3c0.chunk.css",
-    "main.js": "/static/js/main.a9eb2b75.chunk.js",
-    "main.js.map": "/static/js/main.a9eb2b75.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.742bcb60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.742bcb60.js.map",
-    "static/css/2.4f836045.chunk.css": "/static/css/2.4f836045.chunk.css",
-    "static/js/2.d1d6b11a.chunk.js": "/static/js/2.d1d6b11a.chunk.js",
-    "static/js/2.d1d6b11a.chunk.js.map": "/static/js/2.d1d6b11a.chunk.js.map",
-    "static/js/3.dcda388f.chunk.js": "/static/js/3.dcda388f.chunk.js",
-    "static/js/3.dcda388f.chunk.js.map": "/static/js/3.dcda388f.chunk.js.map",
+    "main.js": "/static/js/main.d5818e4f.chunk.js",
+    "main.js.map": "/static/js/main.d5818e4f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d639d7b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d639d7b.js.map",
+    "static/css/2.2274224d.chunk.css": "/static/css/2.2274224d.chunk.css",
+    "static/js/2.d8ece185.chunk.js": "/static/js/2.d8ece185.chunk.js",
+    "static/js/2.d8ece185.chunk.js.map": "/static/js/2.d8ece185.chunk.js.map",
+    "static/js/3.5651f9cf.chunk.js": "/static/js/3.5651f9cf.chunk.js",
+    "static/js/3.5651f9cf.chunk.js.map": "/static/js/3.5651f9cf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.4f836045.chunk.css.map": "/static/css/2.4f836045.chunk.css.map",
+    "static/css/2.2274224d.chunk.css.map": "/static/css/2.2274224d.chunk.css.map",
     "static/css/main.a429e3c0.chunk.css.map": "/static/css/main.a429e3c0.chunk.css.map",
-    "static/js/2.d1d6b11a.chunk.js.LICENSE.txt": "/static/js/2.d1d6b11a.chunk.js.LICENSE.txt",
+    "static/js/2.d8ece185.chunk.js.LICENSE.txt": "/static/js/2.d8ece185.chunk.js.LICENSE.txt",
     "static/media/Elias-1.6256656a.jpg": "/static/media/Elias-1.6256656a.jpg",
     "static/media/Elias-2.661c6c22.jpg": "/static/media/Elias-2.661c6c22.jpg",
     "static/media/Elias-3.77fd8e04.jpg": "/static/media/Elias-3.77fd8e04.jpg",
@@ -33,10 +33,10 @@
     "static/media/vimma_03.432b6361.jpg": "/static/media/vimma_03.432b6361.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.742bcb60.js",
-    "static/css/2.4f836045.chunk.css",
-    "static/js/2.d1d6b11a.chunk.js",
+    "static/js/runtime-main.3d639d7b.js",
+    "static/css/2.2274224d.chunk.css",
+    "static/js/2.d8ece185.chunk.js",
     "static/css/main.a429e3c0.chunk.css",
-    "static/js/main.a9eb2b75.chunk.js"
+    "static/js/main.d5818e4f.chunk.js"
   ]
 }
