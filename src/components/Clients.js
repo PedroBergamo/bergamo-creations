@@ -6,9 +6,9 @@ import "../index.css"
 import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
 
-import Vimma1 from "../images/clients/vimma/images/vimma_01.jpg"
-import Vimma2 from "../images/clients/vimma/images/vimma_02.jpg"
-import Vimma3 from "../images/clients/vimma/images/vimma_03.jpg"
+import Vimma1 from "../images/clients/vimma/vimma_01.jpg"
+import Vimma2 from "../images/clients/vimma/vimma_02.jpg"
+import Vimma3 from "../images/clients/vimma/vimma_03.jpg"
 
 import Elias1 from "../images/clients/elias/Elias-1.jpg"
 import Elias2 from "../images/clients/elias/Elias-2.jpg"
