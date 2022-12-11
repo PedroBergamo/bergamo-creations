@@ -57,7 +57,7 @@ function Client(props){
 const Clients = () => {
   return (
     <div className="client">
-    <h1>Portifolio</h1>
+    <h1>Portfolio</h1>
     <Client
       service="Brand Design"
       name="Vimma"
