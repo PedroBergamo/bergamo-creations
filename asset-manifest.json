@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a429e3c0.chunk.css",
-    "main.js": "/static/js/main.c53279fe.chunk.js",
-    "main.js.map": "/static/js/main.c53279fe.chunk.js.map",
+    "main.css": "/static/css/main.1f1a06ac.chunk.css",
+    "main.js": "/static/js/main.f5806f46.chunk.js",
+    "main.js.map": "/static/js/main.f5806f46.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3d639d7b.js",
     "runtime-main.js.map": "/static/js/runtime-main.3d639d7b.js.map",
     "static/css/2.2274224d.chunk.css": "/static/css/2.2274224d.chunk.css",
@@ -12,13 +12,13 @@
     "static/js/3.5651f9cf.chunk.js.map": "/static/js/3.5651f9cf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2274224d.chunk.css.map": "/static/css/2.2274224d.chunk.css.map",
-    "static/css/main.a429e3c0.chunk.css.map": "/static/css/main.a429e3c0.chunk.css.map",
+    "static/css/main.1f1a06ac.chunk.css.map": "/static/css/main.1f1a06ac.chunk.css.map",
     "static/js/2.655875a6.chunk.js.LICENSE.txt": "/static/js/2.655875a6.chunk.js.LICENSE.txt",
     "static/media/Elias-1.6256656a.jpg": "/static/media/Elias-1.6256656a.jpg",
     "static/media/Elias-2.661c6c22.jpg": "/static/media/Elias-2.661c6c22.jpg",
     "static/media/Elias-3.77fd8e04.jpg": "/static/media/Elias-3.77fd8e04.jpg",
     "static/media/FloresPeloCeu.9909704c.jpg": "/static/media/FloresPeloCeu.9909704c.jpg",
-    "static/media/index.css": "/static/media/ShareTech.c0baac7e.ttf",
+    "static/media/index.css": "/static/media/mark-black-BG.4a31fc5c.png",
     "static/media/Imigrante.9c787e1f.jpg": "/static/media/Imigrante.9c787e1f.jpg",
     "static/media/Inke-1.fd76ca97.jpg": "/static/media/Inke-1.fd76ca97.jpg",
     "static/media/Inke-2.e4dbf516.jpg": "/static/media/Inke-2.e4dbf516.jpg",
@@ -27,7 +27,7 @@
     "static/media/everfrost-1.c02b10f7.jpg": "/static/media/everfrost-1.c02b10f7.jpg",
     "static/media/everfrost-2.b6302e4f.jpg": "/static/media/everfrost-2.b6302e4f.jpg",
     "static/media/everfrost-3.05040001.jpg": "/static/media/everfrost-3.05040001.jpg",
-    "static/media/mark-white.391d540b.png": "/static/media/mark-white.391d540b.png",
+    "static/media/mark-white.f47d63de.png": "/static/media/mark-white.f47d63de.png",
     "static/media/vimma_01.de19fa5c.jpg": "/static/media/vimma_01.de19fa5c.jpg",
     "static/media/vimma_02.002c92eb.jpg": "/static/media/vimma_02.002c92eb.jpg",
     "static/media/vimma_03.432b6361.jpg": "/static/media/vimma_03.432b6361.jpg"
@@ -36,7 +36,7 @@
     "static/js/runtime-main.3d639d7b.js",
     "static/css/2.2274224d.chunk.css",
     "static/js/2.655875a6.chunk.js",
-    "static/css/main.a429e3c0.chunk.css",
-    "static/js/main.c53279fe.chunk.js"
+    "static/css/main.1f1a06ac.chunk.css",
+    "static/js/main.f5806f46.chunk.js"
   ]
 }
