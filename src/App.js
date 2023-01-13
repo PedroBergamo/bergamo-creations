@@ -20,7 +20,7 @@ return (
       <div className="header" id="myHeader">
       <Menu/>
       <div className="logo">
-        <img src={Mark} width="10%" alt="mark"/>
+        <img src={Mark} width="20%" alt="mark"/>
       </div>
     </div>
     <Switch>
