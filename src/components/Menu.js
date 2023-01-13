@@ -1,5 +1,7 @@
 import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
+
+import Contacts from './Contacts.js';
 import "../index.css";
 import {
      Link
@@ -7,6 +9,8 @@ import {
 
 import menu from "../images/Icons/menu.png"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
+
+var Music = "https://www.pedrobergamo.com/"
 
 
 export default class Menu extends React.Component {
@@ -37,7 +41,7 @@ export default class Menu extends React.Component {
 
     render() {
         return (
-          <div className='menu'>
+          <div>
               <Slide
                 right
                 customBurgerIcon={ <img src={menu} alt="menu png"/>}
@@ -45,10 +49,20 @@ export default class Menu extends React.Component {
                 isOpen={this.state.menuOpen}
                 onStateChange={(state) => this.handleStateChange(state)}
               >
+              <div className='menu'>
+                <h1 style={{text_align:"left"}}>Menu</h1>
+                <div className="menu-button-list">
                   <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
-                  "/design">Design</Link></li>
-                    <a onClick={() => this.closeMenu()} className="menu_link" href={Shop} target="_blank" rel="noreferrer">Shop</a>
+                  "/design"><h1>Design</h1></Link></li>
+                    <a onClick={() => this.closeMenu()} className="menu_link"
+                    href={Shop} target="_blank" rel="noreferrer"><h1>Shop</h1></a>
+                    <a onClick={() => this.closeMenu()} className="menu_link"
+                    href={Music} target="_blank" rel="noreferrer"><h1>Music</h1></a>
 
+                </div>
+
+              </div>
+                <Contacts/>
               </Slide>
               </div>
 

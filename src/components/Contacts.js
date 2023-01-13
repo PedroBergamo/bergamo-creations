@@ -11,10 +11,11 @@ const navObj = {
     }
 };
 
-export default class SocialMedia extends React.Component {
+export default class Contacts extends React.Component {
     render() {
         return (
-          <div className="social-media">
+          <div className="contacts">
+                <h3>pedro@bergamocreations.com</h3>
                 <Nav>
                 <Nav.Link
                     href="https://www.instagram.com/bergamocreations/"
