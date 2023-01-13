@@ -15,49 +15,40 @@ export default class SocialMedia extends React.Component {
     render() {
         return (
           <div className="social-media">
-          <h3 style={{marginBottom:"10%"}}>Connect with the mystic:</h3>
                 <Nav>
                 <Nav.Link
-                    href="https://www.instagram.com/pedro.bergamo/"
+                    href="https://www.instagram.com/bergamocreations/"
                     target="_blank"
                     alt="Instagram"
                     style={navObj.linkStyle}
                   >
-                    <span className="fa fa-instagram white" style={{fontSize: '24px'}}></span>
+                    <span className="fa fa-instagram black" style={{fontSize: '24px'}}></span>
                 </Nav.Link>
                     <Nav.Link
-                        href="https://www.facebook.com/PedroBergamoOfficial/"
+                        href="https://www.facebook.com/profile.php?id=100087251499811"
                         target="_blank"
                         alt="Facebook"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-facebook white" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-facebook black" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
                     <Nav.Link
-                        href="https://www.youtube.com/channel/UCNQ8zZfIcpQf9cNEYxsoiOQ"
+                        href="https://www.behance.net/pedrobergamo"
                         target="_blank"
-                        alt="ReverbNation"
-                        style={navObj.linkStyle}
-                      >
-                        <span className="fa fa-youtube white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
-
-                    <Nav.Link
-                        href="https://open.spotify.com/artist/3mRWEl21jxyttpZH1s7TSd?si=7108dad7994b415c"
-                        target="_blank"
-                        alt="ReverbNation"
-                        style={navObj.linkStyle}
-                      >
-                        <span className="fa fa-spotify white" style={{fontSize: '24px'}}></span>
-                    </Nav.Link>
-                    <Nav.Link
-                        href="https://pedrobergamo.bandcamp.com"
-                        target="_blank"
-                        alt="Bandcamp"
+                        alt="Behance"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-bandcamp white" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-behance black" style={{fontSize: '24px'}}></span>
                     </Nav.Link>
+                    <Nav.Link
+                        href="https://www.etsy.com/fi-en/shop/BergamoCreations"
+                        target="_blank"
+                        alt="Etsy"
+                        style={navObj.linkStyle}
+                    >
+                        <span className="fa fa-etsy black" style={{fontSize: '24px'}}></span>
+                    </Nav.Link>
+
                 </Nav>
                 </div>
         );

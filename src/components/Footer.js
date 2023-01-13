@@ -12,13 +12,11 @@ const footerObj = {
 export default class Footer extends React.Component {
     render(){
         return (
-                <footer className= "footer" >
+                <footer className="footer" >
+                <h3>pedro@bergamocreations.com</h3>
                     <SocialMedia/>
-                    <h2>{footerObj.contact}</h2>
-                    <h2>&copy; {footerObj.date} - {footerObj.name}</h2>
+                    <h3>&copy; {footerObj.date} - {footerObj.name}</h3>
                 </footer>
-
-
         );
     }
 }

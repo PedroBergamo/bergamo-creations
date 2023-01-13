@@ -151,12 +151,16 @@ p {
 }
 
 .footer {
-background-color: black;
+background-color: white;
 text-align: center;
+background-image: url("./brand/mark/mark-black-BG.png");
+background-size: 55%;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .footer p {
-color:white;
+color:black;
 }
 
 .footer h1 {
@@ -164,8 +168,9 @@ color:white;
 }
 
 .footer h3 {
-color:white;
+color:black;
 text-align: center;
+padding: 2rem;
 }
 
 .logo{
