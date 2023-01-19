@@ -1,0 +1,17 @@
+.header{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.header h2 {
+  color: white;
+  text-align: right;
+  margin: 0px;
+}
+
+.logo{
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}

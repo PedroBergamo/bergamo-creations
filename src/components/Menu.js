@@ -2,7 +2,7 @@ import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
 
 import Contacts from './Contacts.js';
-import "../index.css";
+import "../css/Menu.css";
 import {
      Link
   } from 'react-router-dom';
