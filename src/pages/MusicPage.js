@@ -1,7 +1,7 @@
 import React from 'react';
 import MusicList from "./content/MusicList.json"
 import {Redirect} from "react-router-dom"
-import "./pages.css"
+import "../css/pages.css"
 import {Col} from "react-bootstrap"
 
 const MusicPage = (props) => {

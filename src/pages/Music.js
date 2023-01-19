@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MusicList from "./content/MusicList.json"
-import "./pages.css"
+import "../css/pages.css"
 import { Container, Row, Col } from "react-bootstrap";
 import Flores from "../images/coverarts/FloresPeloCeu.jpg"
 import Imigrante from "../images/coverarts/Imigrante.jpg"

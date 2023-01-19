@@ -1,4 +1,4 @@
-import "./pages.css"
+import "../css/pages.css"
 import Clients from "../components/Clients.js";
 
 const Portifolio = () => {

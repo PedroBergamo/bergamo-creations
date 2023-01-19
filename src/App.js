@@ -1,11 +1,9 @@
 import Footer from "./components/Footer.js";
 import Header from "./components/Header.js";
 import Music from "./pages/Music.js";
-import Texts from "./pages/Texts.js";
 import NotFound from "./pages/NotFound.js"
 import MusicPage from "./pages/MusicPage.js";
 import Portifolio from "./pages/Portifolio.js";
-import wallpapers from "./pages/wallpapers.js";
 import {
       HashRouter, Switch, Route, Redirect
   } from 'react-router-dom';
@@ -26,11 +24,7 @@ return (
       <Route path="/music" exact>
         <Music />
       </Route>
-      <Route path="/texts" exact>
-        <Texts />
-      </Route>
-      <Route path="/wallpapers" component={wallpapers} />
-      </Switch>
+    </Switch>
       <Footer a id="f"/>
     </HashRouter>
   );
