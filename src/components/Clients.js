@@ -62,7 +62,7 @@ const Clients = () => {
       service="Brand Design"
       name="Vimma"
       description=
-      "For their new album, Vimma wanted a more modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violing riffs. "
+      "For their new album, Vimma wanted a more modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violin riffs. "
       link= {VimmaSite}
       p1={Vimma1} p2={Vimma2} p3={Vimma3}/>
 
