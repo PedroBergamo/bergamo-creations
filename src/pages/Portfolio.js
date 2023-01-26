@@ -1,10 +1,10 @@
 import "../css/pages.css"
 import Clients from "../components/Clients.js";
 
-const Portifolio = () => {
+const Portfolio = () => {
   return(
-    <div>
-      <div className= "content">
+    <div className="container">
+      <div>
           <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
           <h1>-Saint Augustine</h1>
           <p style={{marginTop: "10%"}}>
@@ -18,4 +18,4 @@ const Portifolio = () => {
     )
 }
 
-export default Portifolio;
+export default Portfolio;

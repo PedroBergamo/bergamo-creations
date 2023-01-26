@@ -11,7 +11,7 @@ export default class Header extends React.Component {
           <div className="header" id="myHeader">
             <Menu/>
             <div className="logo">
-              <img src={Mark} width="20%" alt="mark"/>
+              <img src={Mark} width="100px" alt="mark"/>
             </div>
           </div>
         );

@@ -2,10 +2,14 @@
   text-align: center;
 }
 
+.container{
+
+  padding: 0 10%;
+}
+
 .client{
-    background-color: #000000;
     text-align: center;
-    padding: 5%;
+    padding: 5% 0
 }
 
 .client h1{
@@ -23,11 +27,6 @@
 .client p{
   color: white;
   margin-bottom: 0;
-}
-
-.content{
-  display: inline-block;
-  margin: 3%;
 }
 
 .carousel{

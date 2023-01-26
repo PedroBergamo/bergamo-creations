@@ -10,6 +10,17 @@ import Vimma1 from "../images/clients/vimma/vimma_01.jpg"
 import Vimma2 from "../images/clients/vimma/vimma_02.jpg"
 import Vimma3 from "../images/clients/vimma/vimma_03.jpg"
 
+
+import Halophones1 from "../images/clients/halophones/halo-1.jpg"
+import Halophones2 from "../images/clients/halophones/halo-2.jpg"
+import Halophones3 from "../images/clients/halophones/halo-3.jpg"
+import Halophones4 from "../images/clients/halophones/halo-4.jpg"
+import Halophones5 from "../images/clients/halophones/halo-5.jpg"
+import Halophones6 from "../images/clients/halophones/halo-6.jpg"
+import Halophones7 from "../images/clients/halophones/halo-7.jpg"
+import Halophones8 from "../images/clients/halophones/halo-8.jpg"
+import Halophones9 from "../images/clients/halophones/halo-9.jpg"
+
 import Elias1 from "../images/clients/elias/Elias-1.jpg"
 import Elias2 from "../images/clients/elias/Elias-2.jpg"
 import Elias3 from "../images/clients/elias/Elias-3.jpg"
@@ -21,9 +32,9 @@ import Inke3 from "../images/clients/inke/Inke-5.jpg"
 import Everfrost1 from "../images/clients/everfrost/everfrost-1.jpg"
 import Everfrost2 from "../images/clients/everfrost/everfrost-2.jpg"
 import Everfrost3 from "../images/clients/everfrost/everfrost-3.jpg"
-import Minfloat1 from "../images/clients/minfloat/MinFloat-1.jpg"
-var MinfloatSite = "http://flotation-simulator.com";
 
+
+var HalophonesLink = "https://www.instagram.com/thehalophones/";
 var VimmaSite = "https://www.vimmaband.com";
 var EliasSite = "https://www.behance.net/gallery/138157413/Elias-Nieminen-Ensemble-Brand-Book";
 var EverFrostSite = "https://www.behance.net/gallery/138884997/Everfrost-Brand-Book";
@@ -58,6 +69,38 @@ const Clients = () => {
   return (
     <div className="client">
     <h1>Portfolio</h1>
+
+    <div
+      className="client">
+      <h3>Brand Design / Photoshoot</h3>
+      <h1>The Halophones</h1>
+    <Swiper
+      modules={[Navigation, Pagination, Scrollbar]}
+      pagination={{ clickable: true }}
+      slidesPerView={1}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide><img src={Halophones1} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide><img src={Halophones2} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones3} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones4} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones5} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones6} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones7} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones8} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide> <img src={Halophones9} width="100%" alt=""/></SwiperSlide>
+    </Swiper>
+    <h3>
+       On October of 2022 I was commissioned to rethink the identity of
+       the rock band “The Halophones” for their new upcoming release. The
+       re-branding aimed to speak straight to Indie music appreciators but
+       also with the more wreckless members of their fanbase.
+    </h3>
+    <h3>Link: <a className="text_link" href={HalophonesLink} target="_blank"
+    rel="noreferrer">The Halophones IG</a></h3>
+    </div>
+
     <Client
       service="Brand Design"
       name="Vimma"
@@ -88,18 +131,6 @@ const Clients = () => {
         link= {EverFrostSite}
         p1={Everfrost1} p2={Everfrost2} p3={Everfrost3}/>
 
-      <div className="client">
-        <h3>UX/UI Design/WebGL</h3>
-        <h1>MinFloat</h1>
-        <div >
-          <img src={Minfloat1} width="100%" alt=""/>
-        </div>
-
-
-        <h3> Minfloat is an educational game which teaches performance calculations related to Froth Flotation.
-            For their UI, I created a futuristic user interface with patent-resembling elements.</h3>
-            <h3>Link: <a className="text_link" href={MinfloatSite} target="_blank" rel="noreferrer">Minfloat</a></h3>
-      </div>
 
       <div className="client">
         <h3>Music Video </h3>
