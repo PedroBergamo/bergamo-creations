@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.263148a3.chunk.css",
-    "main.js": "/static/js/main.dd2a7654.chunk.js",
-    "main.js.map": "/static/js/main.dd2a7654.chunk.js.map",
+    "main.js": "/static/js/main.1f925994.chunk.js",
+    "main.js.map": "/static/js/main.1f925994.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e052ef3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.e052ef3d.js.map",
     "static/css/2.5f99389d.chunk.css": "/static/css/2.5f99389d.chunk.css",
-    "static/js/2.1703c013.chunk.js": "/static/js/2.1703c013.chunk.js",
-    "static/js/2.1703c013.chunk.js.map": "/static/js/2.1703c013.chunk.js.map",
+    "static/js/2.816dd335.chunk.js": "/static/js/2.816dd335.chunk.js",
+    "static/js/2.816dd335.chunk.js.map": "/static/js/2.816dd335.chunk.js.map",
     "static/js/3.45c7a4cf.chunk.js": "/static/js/3.45c7a4cf.chunk.js",
     "static/js/3.45c7a4cf.chunk.js.map": "/static/js/3.45c7a4cf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.5f99389d.chunk.css.map": "/static/css/2.5f99389d.chunk.css.map",
     "static/css/main.263148a3.chunk.css.map": "/static/css/main.263148a3.chunk.css.map",
-    "static/js/2.1703c013.chunk.js.LICENSE.txt": "/static/js/2.1703c013.chunk.js.LICENSE.txt",
+    "static/js/2.816dd335.chunk.js.LICENSE.txt": "/static/js/2.816dd335.chunk.js.LICENSE.txt",
     "static/media/Elias-1.6256656a.jpg": "/static/media/Elias-1.6256656a.jpg",
     "static/media/Elias-2.661c6c22.jpg": "/static/media/Elias-2.661c6c22.jpg",
     "static/media/Elias-3.77fd8e04.jpg": "/static/media/Elias-3.77fd8e04.jpg",
@@ -22,6 +22,8 @@
     "static/media/Imigrante.9c787e1f.jpg": "/static/media/Imigrante.9c787e1f.jpg",
     "static/media/Inke-1.efaabcf8.jpg": "/static/media/Inke-1.efaabcf8.jpg",
     "static/media/Inke-2.e4dbf516.jpg": "/static/media/Inke-2.e4dbf516.jpg",
+    "static/media/Inke-3.716d953c.jpg": "/static/media/Inke-3.716d953c.jpg",
+    "static/media/Inke-4.108f0655.jpg": "/static/media/Inke-4.108f0655.jpg",
     "static/media/Inke-5.71b6e547.jpg": "/static/media/Inke-5.71b6e547.jpg",
     "static/media/pages.css": "/static/media/bg-3.0bd5fbc7.jpg",
     "static/media/halo-1.a37e7469.jpg": "/static/media/halo-1.a37e7469.jpg",
@@ -46,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.e052ef3d.js",
     "static/css/2.5f99389d.chunk.css",
-    "static/js/2.1703c013.chunk.js",
+    "static/js/2.816dd335.chunk.js",
     "static/css/main.263148a3.chunk.css",
-    "static/js/main.dd2a7654.chunk.js"
+    "static/js/main.1f925994.chunk.js"
   ]
 }
