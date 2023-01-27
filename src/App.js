@@ -8,7 +8,7 @@ import {
       HashRouter, Switch, Route, Redirect
   } from 'react-router-dom';
 
-import "./index.css"
+import "./css/index.css"
 
 function App() {
 return (

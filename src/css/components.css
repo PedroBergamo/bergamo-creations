@@ -1,0 +1,43 @@
+.client{
+    text-align: center;
+    padding: 5% 0
+}
+
+.client h1,p,h3{
+  color: white;
+  margin-top: 0;
+}
+
+.contacts{
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.contacts h3{
+  text-align: center;
+  color: black;
+}
+
+.footer {
+background-color: white;
+text-align: center;
+background-image: url("../brand/mark/mark-black-BG.png");
+background-size: 55%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.footer p {
+color:black;
+}
+
+.footer h1 {
+color:white;
+}
+
+.footer h3 {
+color:black;
+text-align: center;
+padding: 2rem;
+}

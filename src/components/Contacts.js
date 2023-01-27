@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
-import "../index.css";
+import "../css/components.css";
 
 const navObj = {
     brandStyle: {

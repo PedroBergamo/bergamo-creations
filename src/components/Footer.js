@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../css/components.css';
 import Contacts from "./Contacts.js";
 const date = new Date();
 

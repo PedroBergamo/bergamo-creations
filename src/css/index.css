@@ -4,23 +4,21 @@ html, body {
 }
 
 body {
-  background-image: url("./images/background-dore2.jpg");
+  background-image: url("../images/backgrounds/background-dore2.jpg");
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center center;
+  background-position: center;
   font-family: "Raleway", sans-serif;
   background-color: #000000;
 }
 
 @font-face {
   font-family: 'GTEAPAC';
-  src: url('./brand/GTEAPAC.otf');
+  src: url('../brand/GTEAPAC.otf');
 }
 
 @font-face {
   font-family: 'ShareTech';
-  src: url('./fonts/ShareTech.ttf');
+  src: url('../fonts/ShareTech.ttf');
 }
 
 .white {
@@ -72,41 +70,6 @@ p {
 
 .hide {
     display: none;
-}
-
-.footer {
-background-color: white;
-text-align: center;
-background-image: url("./brand/mark/mark-black-BG.png");
-background-size: 55%;
-background-position: center;
-background-repeat: no-repeat;
-}
-
-.footer p {
-color:black;
-}
-
-.footer h1 {
-color:white;
-}
-
-.footer h3 {
-color:black;
-text-align: center;
-padding: 2rem;
-}
-
-.contacts{
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-
-}
-
-.contacts h3{
-  text-align: center;
-  color: black;
 }
 
 ul li{

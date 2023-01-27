@@ -2,37 +2,14 @@
   text-align: center;
 }
 
-.container{
-
-  padding: 0 10%;
-}
-
-.client{
-    text-align: center;
-    padding: 5% 0
-}
-
-.client h1{
-  color: white;
-  margin-top: 0;
-}
-
-
-.client h3{
-  color: white;
-  margin-bottom: 0;
-}
-
-
-.client p{
-  color: white;
-  margin-bottom: 0;
-}
-
 .carousel{
   text-align: center;
    height: auto;
    padding: 5%;
+}
+
+.container{
+  padding: 0 10%;
 }
 
 .elias{
@@ -48,10 +25,6 @@
   background-color: #a7301c;
 }
 
-.minfloat {
-  background-color: #011722;
-}
-
 .song{
   padding: 0 10%;
   margin-top: 5%;
@@ -61,7 +34,6 @@
   text-align: center;
   margin: 10%;
   font-size: 36px;
-
 }
 
 .song-card{
@@ -72,15 +44,12 @@
 
 .video{
   background-color: #13091e;
+  width : 100%;
 }
 
 .link{
   color: white;
   text-transform: uppercase;
-}
-
-.video{
-  width : 100%;
 }
 
 .music-page{
@@ -99,16 +68,14 @@
   margin: 0% 0%;
 }
 
-.BookMe h1{
-  text-align: left;
-  padding: 0 10%;
-  color: Black;
-}
-
 .bandcamp{
   padding: 0 10%;
   border: 0;
   height: 5.0rem;
+}
+
+.splash{
+  padding: 2rem;
 }
 
 .wallpaper{

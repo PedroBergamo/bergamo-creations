@@ -1,7 +1,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper';
-import "../index.css"
+import "../css/components.css"
 
 import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
