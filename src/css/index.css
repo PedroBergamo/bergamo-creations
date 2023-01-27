@@ -4,9 +4,10 @@ html, body {
 }
 
 body {
-  background-image: url("../images/backgrounds/background-dore2.jpg");
+  background-image: url("../images/backgrounds/augustine.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
+  background-position: left;
   font-family: "Raleway", sans-serif;
   background-color: #000000;
 }
@@ -32,8 +33,10 @@ body {
 h1 {
   font-family: "GTEAPAC", sans-serif;
   text-transform: uppercase;
-  font-size: 42px;
+  font-size: calc(3em + 2vw);
+  width:100%;
   color: white;
+  padding: 3rem 0;
   text-align: left;
   display: block;
   line-height: auto;
@@ -41,9 +44,10 @@ h1 {
 
 h2 {
   font-family: "GTEAPAC", sans-serif;
-  font-size: 24px;
-  color: #FFFFFF;
- line-height: auto;
+  font-size: 36px;
+  color: white;
+  line-height: auto;
+  text-align: left;
 }
 
 h3{
@@ -51,6 +55,7 @@ h3{
   color: white;
   font-size: 16px;
   text-align: left;
+  padding: 2rem;
   text-transform: uppercase;
 }
 
