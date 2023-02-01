@@ -1,10 +1,10 @@
 import React from 'react';
-import MusicList from "./content/MusicList.json"
+import MusicList from "./content/CoverArts.json"
 import {Redirect} from "react-router-dom"
 import "../css/pages.css"
 import {Col} from "react-bootstrap"
 
-const MusicPage = (props) => {
+const CoverArt = (props) => {
   const ValidId = parseInt(props.match.params.id)
   if(!ValidId){
     return <Redirect to="/404" />
@@ -13,25 +13,24 @@ const MusicPage = (props) => {
   MusicList.forEach((item, i) => {
     if(ValidId === item.id){
       fetchedSong.title = item.title ? item.title: "No title given"
-      fetchedSong.englishtitle = item.englishtitle ? item.englishtitle: "No title given"
       fetchedSong.lyrics = item.lyrics ? item.lyrics: "No lyrics available"
       fetchedSong.translation = item.translation ? item.translation: "No translation available"
       fetchedSong.video = item.video ? item.video: "No video given"
       fetchedSong.bandcamp = item.bandcamp ? item.bandcamp: "No content given"
+      fetchedSong.imageAddress = item.imageAddress ? item.imageAddress: "No imageAddress given"
     }
   });
+
 
   return(
           <div key={fetchedSong.id} className="song">
           <Col xs={8} md={6}>
+            <img src={fetchedSong.imageAddress} width="100%" alt="" />
+          </Col>
+
+          <Col xs={8} md={6}>
           <h3>{fetchedSong.title}</h3>
           {fetchedSong.lyrics.map((verse, i) => {
-            return <p key={i} className="lyrics">{verse}</p>
-          })}
-          </Col>
-          <Col xs={8} md={6}>
-          <h3>{fetchedSong.englishtitle}</h3>
-          {fetchedSong.translation.map((verse, i) => {
             return <p key={i} className="lyrics">{verse}</p>
           })}
           </Col>
@@ -56,4 +55,4 @@ const MusicPage = (props) => {
     );
 };
 
-export default MusicPage;
+export default CoverArt;

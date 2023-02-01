@@ -10,6 +10,7 @@ import {
 import menu from "../images/Icons/menu.png"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 
+
 var Music = "https://www.pedrobergamo.com/"
 
 
@@ -54,6 +55,8 @@ export default class Menu extends React.Component {
                 <div className="menu-button-list">
                   <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
                   "/design"><h1>Design</h1></Link></li>
+                  <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
+                  "/CoverArts"><h1>Cover Arts</h1></Link></li>
                     <a onClick={() => this.closeMenu()} className="menu_link"
                     href={Shop} target="_blank" rel="noreferrer"><h1>Shop</h1></a>
                     <a onClick={() => this.closeMenu()} className="menu_link"

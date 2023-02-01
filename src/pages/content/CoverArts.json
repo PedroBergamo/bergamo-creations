@@ -1,5 +1,5 @@
 [{
-  "id" : 1,
+  "id" : 0,
 	"title" : "Nos Dois Merecemos Viver",
 	"englishtitle" : "We Both Deserve To Live",
   "lyrics" : ["O sol se vai e a noite vem", "Tentando imitar tua alma, tentando imitar teu desdém \r ",
@@ -35,7 +35,7 @@
   "video":"https://www.youtube.com/embed/FWStO9MZzQ4"
 },
 {
-  "id" : 2,
+  "id" : 1,
 	"title" : "Lago Brasil",
 
   	"englishtitle" : "Lake Brasil",
@@ -111,7 +111,7 @@
     "video": "https://www.youtube.com/embed/4qdJSMn3ISg"
 },
 {
-  "id" : 3,
+  "id" : 2,
 "title" : "Abrahadabra!",
 "englishtitle" : "Abrahadabra!",
 "lyrics": ["Subam as cortinas deixem a luz do sol guiar",
@@ -184,7 +184,7 @@
     "bandcamp": "2366630471"
 },
 {
-  "id" : 4,
+  "id" : 3,
 "title" : "Flores Pelo Céu",
 "englishtitle" : "Flowers Across the Sky",
 "lyrics": ["Sonhos de um ente maior que mora as margens da cidade do sol",
@@ -222,7 +222,7 @@
 "bandcamp": "1471844362"
 },
 {
-  "id" : 5,
+  "id" : 4,
 	"title" : "O Feiticeiro Esteve Aqui",
 
 	"englishtitle" : "The Sorcerer Was Here",
@@ -282,11 +282,11 @@
 "Said the sorcerer with fire in his eyes", "'Freed from sin we will all, hand in hand, meet the Creator'"],
   "video": "https://www.youtube.com/embed/91Iy7s-69Eg",
   "bandcamp": "101063964"},
-  {
-    "id" : 6,
-  	"title" : "Imigrante",
-  	"englishtitle" : "Immigrant",
-    "lyrics": [
+{
+    "id" : 5,
+  	"title" : "Elias Nieminen Ensemble - Departure",
+    "imageAddress" : "/coverarts/ene-departure.jpg",
+  	"lyrics": [
       "Sou um imigrante de longe, lá da terra de ninguém",
       "Não tenho ouro ou diamante, nunca fui de acumular bens",
       "Mas trago comigo histórias que a sua terra não tem",
