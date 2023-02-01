@@ -17,6 +17,7 @@
 .song{
   padding: 0 10%;
   margin-top: 5%;
+  background-color: #000000
 }
 
 .song h3{
@@ -49,18 +50,15 @@
   color: white;
 }
 
-.music-row{
-  margin-top: 5%;
-
-}
 .last-column{
   margin: 0% 0%;
 }
 
 .bandcamp{
-  padding: 0 10%;
+  text-align: left;
+  padding: 2rem;
   border: 0;
-  height: 5.0rem;
+  height: 9.0rem;
 }
 
 .splash{
@@ -70,6 +68,12 @@
 
 .splash h2{
   color: white;
+}
+
+.spotify{
+    border-radius: 12px;
+    border: 0;
+    padding: 1rem;
 }
 
 .wallpaper{
