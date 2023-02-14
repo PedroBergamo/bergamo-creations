@@ -1,7 +1,3 @@
-html, body {
-    margin:0px;
-    min-height: 100%;
-}
 
 body {
   background-image: url("../images/backgrounds/augustine.jpg");
@@ -55,7 +51,7 @@ h3{
   color: white;
   font-size: 16px;
   text-align: left;
-  padding: 2rem;
+  padding: 1rem 0;
   text-transform: uppercase;
 }
 
@@ -71,10 +67,6 @@ p {
 
 .header h2{
   padding: 5rem;
-}
-
-.hide {
-    display: none;
 }
 
 ul li{

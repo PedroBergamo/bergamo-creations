@@ -44,7 +44,7 @@ const Clients = () => {
     <div>
     <div
       className="client halophones">
-      <h3>Brand Design / Photoshoot</h3>
+      <h3>Rebranding / Photoshoot</h3>
       <h2>The Halophones</h2>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}
@@ -75,7 +75,7 @@ const Clients = () => {
 
     <div
       className="client vimma">
-      <h3>Brand Design</h3>
+      <h3>Rebranding / Cover Arts</h3>
       <h2>Vimma</h2>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}
@@ -99,7 +99,7 @@ const Clients = () => {
 
     <div
       className="client elias">
-      <h3>Brand Design</h3>
+      <h3>Brand / Web design / Cover Arts</h3>
       <h2>Elias Nieminen Ensemble</h2>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}
@@ -110,7 +110,7 @@ const Clients = () => {
     >
       <SwiperSlide><img src={Elias1} width="100%" alt=""/></SwiperSlide>
       <SwiperSlide><img src={Elias2} width="100%" alt=""/></SwiperSlide>
-      <SwiperSlide> <img src={Elias3} width="100%" alt=""/></SwiperSlide>
+      <SwiperSlide><img src={Elias3} width="100%" alt=""/></SwiperSlide>
     </Swiper>
     <h3>
     Elias Nieminen Ensemble is a genre-crossing project led by the young Finnish drummer-composer Elias Nieminen. For his brand, the composer wanted a sober, sensitive yet energetic visual representation.
@@ -121,7 +121,7 @@ const Clients = () => {
 
     <div
       className="client inke">
-      <h3>Brand Design</h3>
+      <h3>Brand / Website</h3>
       <h2>Inke Launi</h2>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}

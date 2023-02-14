@@ -4,6 +4,14 @@
   background-image: url("../images/backgrounds/bg-3.jpg")
 }
 
+.email-button{
+  border: none;
+  background: none;
+  text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
+}
+
 .notfound{
   text-align: center;
 }

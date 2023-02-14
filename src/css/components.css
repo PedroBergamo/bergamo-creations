@@ -1,6 +1,9 @@
 .client{
     text-align: center;
-    padding: 4rem 14%;
+    padding-left: calc(20px + 20vmin);
+    padding-right: calc(20px + 20vmin);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .client h2{
@@ -54,7 +57,7 @@ background-repeat: no-repeat;
 }
 
 .halophones{
-  background-color: #731d4f;
+  background-color: #1c1c1c;
 }
 
 .vimma{
