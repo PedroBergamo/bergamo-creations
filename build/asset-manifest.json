@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.72ad6cb4.chunk.css",
-    "main.js": "/static/js/main.65ae071e.chunk.js",
-    "main.js.map": "/static/js/main.65ae071e.chunk.js.map",
+    "main.css": "/static/css/main.37b82dc7.chunk.css",
+    "main.js": "/static/js/main.781a4ffb.chunk.js",
+    "main.js.map": "/static/js/main.781a4ffb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfa74d35.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfa74d35.js.map",
     "static/css/2.5f99389d.chunk.css": "/static/css/2.5f99389d.chunk.css",
@@ -12,12 +12,11 @@
     "static/js/3.da4f863b.chunk.js.map": "/static/js/3.da4f863b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.5f99389d.chunk.css.map": "/static/css/2.5f99389d.chunk.css.map",
-    "static/css/main.72ad6cb4.chunk.css.map": "/static/css/main.72ad6cb4.chunk.css.map",
+    "static/css/main.37b82dc7.chunk.css.map": "/static/css/main.37b82dc7.chunk.css.map",
     "static/js/2.645442ac.chunk.js.LICENSE.txt": "/static/js/2.645442ac.chunk.js.LICENSE.txt",
     "static/media/Elias-1.6256656a.jpg": "/static/media/Elias-1.6256656a.jpg",
     "static/media/Elias-2.661c6c22.jpg": "/static/media/Elias-2.661c6c22.jpg",
     "static/media/Elias-3.77fd8e04.jpg": "/static/media/Elias-3.77fd8e04.jpg",
-    "static/media/FloresPeloCeu.9909704c.jpg": "/static/media/FloresPeloCeu.9909704c.jpg",
     "static/media/index.css": "/static/media/augustine.1d321f48.jpg",
     "static/media/Inke-1.efaabcf8.jpg": "/static/media/Inke-1.efaabcf8.jpg",
     "static/media/Inke-2.e4dbf516.jpg": "/static/media/Inke-2.e4dbf516.jpg",
@@ -39,9 +38,9 @@
     "static/media/inke-virta.d8f71838.jpg": "/static/media/inke-virta.d8f71838.jpg",
     "static/media/Menu.css": "/static/media/mark-black-BG.4a31fc5c.png",
     "static/media/mark-white.f47d63de.png": "/static/media/mark-white.f47d63de.png",
-    "static/media/photo-pedro-3.6ead6a4d.jpg": "/static/media/photo-pedro-3.6ead6a4d.jpg",
-    "static/media/signature.8e19313c.png": "/static/media/signature.8e19313c.png",
+    "static/media/photo-pedro-samuel.2e930f46.jpg": "/static/media/photo-pedro-samuel.2e930f46.jpg",
     "static/media/vimma-Antrasiitille.f06be7ea.jpg": "/static/media/vimma-Antrasiitille.f06be7ea.jpg",
+    "static/media/vimma-Sateenkaari.a7137730.jpg": "/static/media/vimma-Sateenkaari.a7137730.jpg",
     "static/media/vimma_01.de19fa5c.jpg": "/static/media/vimma_01.de19fa5c.jpg",
     "static/media/vimma_02.002c92eb.jpg": "/static/media/vimma_02.002c92eb.jpg",
     "static/media/vimma_03.432b6361.jpg": "/static/media/vimma_03.432b6361.jpg",
@@ -52,7 +51,7 @@
     "static/js/runtime-main.cfa74d35.js",
     "static/css/2.5f99389d.chunk.css",
     "static/js/2.645442ac.chunk.js",
-    "static/css/main.72ad6cb4.chunk.css",
-    "static/js/main.65ae071e.chunk.js"
+    "static/css/main.37b82dc7.chunk.css",
+    "static/js/main.781a4ffb.chunk.js"
   ]
 }
