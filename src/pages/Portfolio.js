@@ -13,10 +13,10 @@ const About = () => {
     <Col xs={12} md={8} >
       <h1> Pedro Bergamo</h1>
       <p>
-      Bergamo Creations is a Helsinki-based branding agency run by the designer, illustrator, developer and musican Pedro Bergamo. <br/>Focused on the
-      creation and nurturing of creative brands, it aims to serve musicians
-      to build a strong digital identity through the creation of
-      brands, websites and divergent art pieces such as cover arts, posters and fine art prints.
+      Bergamo Creations is a Helsinki-based branding agency run by the designer, illustrator, developer and musican Pedro Bergamo.
+      <br/>Focused on the creation and nurturing of musical acts, its mission is to connect artists
+      and audiences through the development of strong identities,
+      brands, websites and divergent art pieces.
       </p>
       <p>Let's work together?</p>
       <button className="email-button" onClick={() => window.location = 'mailto:pedro@bergamocreations.com'}>
@@ -31,14 +31,18 @@ const Portfolio = () => {
   return(
     <div>
       <Container className="splash">
-      <Row>
-      <Col>
-      </Col>
-      <Col xs={12} md={4} >
-        <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
-        <h2>-Saint Augustine-</h2>
-      </Col>
+      <Row className="d-none d-lg-block">
+      <h1><br/></h1>
+      <h1>Bergamo</h1>
+      <h1>Creations</h1>
+      <h1><br/></h1>
       </Row>
+      <Row>
+
+        <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
+        <h2 style={{width:"100%"}}>-Saint Augustine-</h2>
+      </Row>
+
       </Container>
     <About/>
     <Clients/>
