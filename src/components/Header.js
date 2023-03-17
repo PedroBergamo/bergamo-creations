@@ -12,6 +12,7 @@ export default class Header extends React.Component {
             <Menu/>
             <div className="logo">
               <img src={Mark} width="100px" alt="mark"/>
+                <h1>Bergamo Creations</h1>
             </div>
           </div>
         );

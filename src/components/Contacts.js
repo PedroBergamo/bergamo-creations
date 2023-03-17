@@ -3,11 +3,9 @@ import { Nav } from 'react-bootstrap';
 import "../css/components.css";
 
 const navObj = {
-    brandStyle: {
-        fontSize: '1.4em'
-    },
     linkStyle: {
-      margin: "10px",
+      margin: "40px",
+      textAlign: "center"
     }
 };
 
@@ -16,7 +14,7 @@ export default class Contacts extends React.Component {
         return (
           <div className="contacts">
                 <h3>pedro@bergamocreations.com</h3>
-                <Nav>
+                <Nav className="nav-links">
                 <Nav.Link
                     href="https://www.instagram.com/bergamocreations/"
                     target="_blank"

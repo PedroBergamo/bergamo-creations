@@ -13,5 +13,10 @@
 .logo{
   padding: 2rem;
   width: 100%;
+  font-family: "GTEAPAC", sans-serif;
+}
+
+.logo h1{
+  font-family: "GTEAPAC", sans-serif;
   text-align: center;
 }

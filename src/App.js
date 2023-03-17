@@ -2,7 +2,7 @@ import Footer from "./components/Footer.js";
 import Header from "./components/Header.js";
 import NotFound from "./pages/NotFound.js"
 import CoverArts from "./pages/CoverArts.js";
-import Portfolio from "./pages/Portfolio.js";
+import Clients from "./components/Clients.js";
 import {
       HashRouter, Switch, Route, Redirect
   } from 'react-router-dom';
@@ -18,7 +18,7 @@ return (
         <Redirect to="/design" />
       </Route>
       <Route path="/404" component={NotFound} />
-        <Route path="/design" component={Portfolio} />
+        <Route path="/design" component={Clients} />
       <Route path="/CoverArts" exact>
         <CoverArts />
       </Route>

@@ -1,11 +1,8 @@
 
 body {
-  background-image: url("../images/backgrounds/augustine-3.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
   font-family: "Raleway", sans-serif;
-  background-color: #000000;
+  background: rgb(0,0,0);
+background: linear-gradient(69deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(32,32,32,1) 100%);
 }
 
 @font-face {
@@ -18,6 +15,11 @@ body {
   src: url('../fonts/ShareTech.ttf');
 }
 
+@font-face {
+  font-family: 'Wellingtons';
+  src: url('../brand/Wellingtons.otf');
+}
+
 .white {
   color: #C6C6C6;
 }
@@ -27,7 +29,7 @@ body {
 }
 
 h1 {
-  font-family: "GTEAPAC", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   text-transform: uppercase;
   font-size: calc(3em + 2vw);
   width:100%;
@@ -39,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-family: "GTEAPAC", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   font-size: 36px;
   color: white;
   line-height: auto;
@@ -47,12 +49,13 @@ h2 {
 }
 
 h3{
-  font-family: "ShareTech", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   color: white;
   font-size: 16px;
   text-align: left;
   padding: 1rem 0;
   text-transform: uppercase;
+  text-align: left;
 }
 
 h4,
@@ -60,7 +63,8 @@ h5,
 p {
   font-family: "Forum", sans-serif;
   color: white;
-  font-size: 24px;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
   line-height: auto;
   overflow: hidden;
 }
@@ -69,8 +73,13 @@ p {
   padding: 5rem;
 }
 
-ul li{
-  list-style: none;
+ul{
+  list-style-type: none;
+}
+
+ul > li
+{
+    list-style-type: none;
 }
 
 .display_inline{

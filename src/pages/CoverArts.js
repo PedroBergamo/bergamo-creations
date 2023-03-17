@@ -10,7 +10,7 @@ import Sateenkaari from "../images/coverarts/vimma-Sateenkaari.jpg"
 
 function CoverArts() {
   return (
-    <div className="music-page">
+    <div>
     <Container>
       <Row>
       <h1 style={{textAlign: "center"}}>Cover Arts</h1>

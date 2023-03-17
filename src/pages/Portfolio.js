@@ -27,24 +27,28 @@ const About = () => {
   )
 }
 
+const Splash = () => {
+  return (
+    <div>
+    <Container className="splash">
+    <Row className="d-none d-lg-block">
+    <h1><br/></h1>
+    <h1>Bergamo Creations</h1>
+    <h1><br/></h1>
+    </Row>
+    <Row>
+      <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
+      <h2 style={{width:"100%"}}>-Saint Augustine-</h2>
+    </Row>
+    </Container>
+    </div>
+  )
+}
+
+
 const Portfolio = () => {
   return(
     <div>
-      <Container className="splash">
-      <Row className="d-none d-lg-block">
-      <h1><br/></h1>
-      <h1>Bergamo</h1>
-      <h1>Creations</h1>
-      <h1><br/></h1>
-      </Row>
-      <Row>
-
-        <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
-        <h2 style={{width:"100%"}}>-Saint Augustine-</h2>
-      </Row>
-
-      </Container>
-    <About/>
     <Clients/>
     </div>
     )

@@ -1,6 +1,8 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper';
+
+import {Row, Col} from "react-bootstrap"
 import "../css/components.css"
 
 import 'swiper/swiper.min.css';
@@ -42,8 +44,12 @@ var InkeDescription = "Inke Launi is a Finnish alternative rock band led by the 
 const Clients = () => {
   return (
     <div>
+    <Row>
+    <Col/>
+    <Col xs={12} sm={6}>
     <div
       className="client halophones">
+      <h1>Portfolio</h1>
       <h3>Rebranding / Photoshoot</h3>
       <h2>The Halophones</h2>
     <Swiper
@@ -63,12 +69,12 @@ const Clients = () => {
       <SwiperSlide> <img src={Halophones8} width="100%" alt=""/></SwiperSlide>
       <SwiperSlide> <img src={Halophones9} width="100%" alt=""/></SwiperSlide>
     </Swiper>
-    <h3>
+    <p>
        On October of 2022 I was commissioned to rethink the identity of
        the rock band “The Halophones” for their new upcoming release. The
        re-branding aimed to speak straight to Indie music appreciators but
        also with the more wreckless members of their fanbase.
-    </h3>
+    </p>
     <h3>Link: <a className="text_link" href={HalophonesLink} target="_blank"
     rel="noreferrer">The Halophones IG</a></h3>
     </div>
@@ -90,9 +96,9 @@ const Clients = () => {
       <SwiperSlide> <img src={Vimma4} width="100%" alt=""/></SwiperSlide>
       <SwiperSlide> <img src={Vimma5} width="100%" alt=""/></SwiperSlide>
     </Swiper>
-    <h3>
+    <p>
     For their new album, Vimma wanted a more modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violin riffs.
-    </h3>
+    </p>
     <h3>Link: <a className="text_link" href={VimmaSite} target="_blank"
     rel="noreferrer">Vimma website</a></h3>
     </div>
@@ -112,9 +118,9 @@ const Clients = () => {
       <SwiperSlide><img src={Elias2} width="100%" alt=""/></SwiperSlide>
       <SwiperSlide><img src={Elias3} width="100%" alt=""/></SwiperSlide>
     </Swiper>
-    <h3>
+    <p>
     Elias Nieminen Ensemble is a genre-crossing project led by the young Finnish drummer-composer Elias Nieminen. For his brand, the composer wanted a sober, sensitive yet energetic visual representation.
-    </h3>
+    </p>
     <h3>Link: <a className="text_link" href={EliasSite} target="_blank"
     rel="noreferrer">Elias website</a></h3>
     </div>
@@ -136,11 +142,16 @@ const Clients = () => {
       <SwiperSlide> <img src={Inke4} width="100%" alt=""/></SwiperSlide>
       <SwiperSlide> <img src={Inke5} width="100%" alt=""/></SwiperSlide>
     </Swiper>
-    <h3>
-    {InkeDescription}</h3>
+    <p>
+    {InkeDescription}</p>
     <h3>Link: <a className="text_link" href={InkeSite} target="_blank"
     rel="noreferrer">Inke Launi website</a></h3>
     </div>
+    </Col>
+    <Col/>>
+
+
+    </Row>
 
     </div>
     );
