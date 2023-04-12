@@ -1,14 +1,14 @@
 .client{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
+  padding: 7%;
+
+  }
 
 .content{
   width: 100%;
 }
+
 .clients h1{
+  text-align: left;
   padding: 0;
 }
 
@@ -24,7 +24,7 @@
 
 .client h3{
   text-align: left;
-  padding: 0;
+  padding: 2rem 0;
 }
 
 .contacts{
