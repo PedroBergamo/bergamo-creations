@@ -2,6 +2,16 @@
   display: block;
   width: 100%;
   text-align: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.splash-elements{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: -30%;
 }
 
 .header h1, h2, p {
@@ -10,8 +20,6 @@
   margin: 0px;
 }
 
-.logo{
-  padding: 2rem;
-  width: 100%;
-  font-family: "GTEAPAC", sans-serif;
+.mark{
+  width: 10%;
 }
