@@ -2,9 +2,8 @@ import React from 'react';
 import "../css/Header.css";
 import Menu from "./Menu.js";
 
-import {Row, Col} from "react-bootstrap"
+import {Row} from "react-bootstrap"
 import Mark from "../brand/mark/bergamoth.png";
-import Frame from "../brand/frame-white-web.png";
 
 
 export default class Header extends React.Component {
