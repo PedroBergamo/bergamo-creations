@@ -2,7 +2,7 @@
 body {
   font-family: "Raleway", sans-serif;
   background: rgb(0,0,0);
-background: linear-gradient(69deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(32,32,32,1) 100%);
+background: linear-gradient(29deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 85%, rgba(32,32,32,1) 100%);
 }
 
 @font-face {
@@ -32,9 +32,10 @@ h1 {
   font-family: "Wellingtons", sans-serif;
   text-transform: uppercase;
   font-size: calc(3em + 2vw);
+  letter-spacing: 1rem;
   width:100%;
   color: white;
-  padding: 3rem 0;
+  padding: 1rem 0;
   text-align: left;
   display: block;
   line-height: auto;
@@ -42,7 +43,9 @@ h1 {
 
 h2 {
   font-family: "Wellingtons", sans-serif;
-  font-size: 36px;
+  font-size: calc(1.4em + 2vw);
+  text-transform: uppercase;
+  letter-spacing: 1rem;
   color: white;
   line-height: auto;
   text-align: left;
@@ -61,16 +64,27 @@ h3{
 h4,
 h5,
 p {
-  font-family: "Forum", sans-serif;
+  font-family: "Wellingtons", sans-serif;
   color: white;
   text-align: left;
   font-size: calc(10px + 2vmin);
   line-height: auto;
   overflow: hidden;
+  padding: 1rem 0;
 }
 
 .header h2{
   padding: 5rem;
+}
+
+a {
+  font-family: "Wellingtons", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  line-height: auto;
+  overflow: hidden;
+  color: #FFDEAA;
 }
 
 ul{

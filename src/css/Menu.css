@@ -12,7 +12,6 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  padding: 1.5em 2.5em 0;
   font-size: 1.15em;
 }
 
@@ -27,14 +26,20 @@
   background: black;
 }
 
-.menu h1, h2{
+.menu{
+  padding: 4rem 0;
+}
+.menu h1{
   color: black;
+  padding: 4rem;
 }
 
 .menu h2{
+  color: black;
   text-align: center;
   text-transform: uppercase;
-  margin: 5%;
+  padding: 1rem;
+  margin: 0;
 }
 
 .menu-button-list h1{
@@ -47,11 +52,12 @@
   text-align: center;
   vertical-align: top;
   text-decoration: none;
-  padding: 4rem 10px;
 }
 
 .bm-menu ul{
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .text_link {

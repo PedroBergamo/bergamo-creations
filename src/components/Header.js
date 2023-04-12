@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/Header.css";
 import Menu from "./Menu.js";
 
-import Mark from "../brand/mark/mark-white.png";
+import Mark from "../brand/mark/bergamoth.png";
 
 
 export default class Header extends React.Component {
@@ -11,8 +11,9 @@ export default class Header extends React.Component {
           <div className="header" id="myHeader">
             <Menu/>
             <div className="logo">
-              <img src={Mark} width="100px" alt="mark"/>
+              <img src={Mark} width="200px" alt="mark"/>
                 <h1>Bergamo Creations</h1>
+                <p>Eccentrify your identity</p>
             </div>
           </div>
         );

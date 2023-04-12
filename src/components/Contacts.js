@@ -4,7 +4,7 @@ import "../css/components.css";
 
 const navObj = {
     linkStyle: {
-      margin: "40px",
+      margin: "10px",
       textAlign: "center"
     }
 };
@@ -21,7 +21,7 @@ export default class Contacts extends React.Component {
                     alt="Instagram"
                     style={navObj.linkStyle}
                   >
-                    <span className="fa fa-instagram black" style={{fontSize: '24px'}}></span>
+                    <span className="fa fa-instagram black" style={{fontSize: '40px'}}></span>
                 </Nav.Link>
                     <Nav.Link
                         href="https://www.facebook.com/profile.php?id=100087251499811"
@@ -29,7 +29,7 @@ export default class Contacts extends React.Component {
                         alt="Facebook"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-facebook black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-facebook black" style={{fontSize: '40px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://www.behance.net/pedrobergamo"
@@ -37,7 +37,7 @@ export default class Contacts extends React.Component {
                         alt="Behance"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-behance black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-behance black" style={{fontSize: '40px'}}></span>
                     </Nav.Link>
                     <Nav.Link
                         href="https://www.etsy.com/fi-en/shop/BergamoCreations"
@@ -45,7 +45,7 @@ export default class Contacts extends React.Component {
                         alt="Etsy"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-etsy black" style={{fontSize: '24px'}}></span>
+                        <span className="fa fa-etsy black" style={{fontSize: '40px'}}></span>
                     </Nav.Link>
 
                 </Nav>

@@ -43,15 +43,15 @@ var InkeDescription = "Inke Launi is a Finnish alternative rock band led by the 
 
 const Clients = () => {
   return (
-    <div>
+    <div className="content">
     <Row>
     <Col/>
-    <Col xs={12} sm={6}>
+    <Col className="content" xs={12} sm={6}>
     <div
-      className="client halophones">
+      className="client">
       <h1>Portfolio</h1>
-      <h3>Rebranding / Photoshoot</h3>
-      <h2>The Halophones</h2>
+      <h3>Rebranding</h3>
+      <h1>The Halophones</h1>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}
       pagination={{ clickable: true }}
@@ -75,14 +75,14 @@ const Clients = () => {
        re-branding aimed to speak straight to Indie music appreciators but
        also with the more wreckless members of their fanbase.
     </p>
-    <h3>Link: <a className="text_link" href={HalophonesLink} target="_blank"
-    rel="noreferrer">The Halophones IG</a></h3>
+    <a className="text_link" href={HalophonesLink} target="_blank"
+    rel="noreferrer">The Halophones IG</a>
     </div>
 
     <div
       className="client vimma">
       <h3>Rebranding / Cover Arts</h3>
-      <h2>Vimma</h2>
+      <h1>Vimma</h1>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar]}
       pagination={{ clickable: true }}
@@ -99,8 +99,8 @@ const Clients = () => {
     <p>
     For their new album, Vimma wanted a more modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violin riffs.
     </p>
-    <h3>Link: <a className="text_link" href={VimmaSite} target="_blank"
-    rel="noreferrer">Vimma website</a></h3>
+    <a className="text_link" href={VimmaSite} target="_blank"
+    rel="noreferrer">Vimma website</a>
     </div>
 
     <div

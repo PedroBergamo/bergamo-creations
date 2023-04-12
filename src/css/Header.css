@@ -4,9 +4,9 @@
   text-align: center;
 }
 
-.header h2 {
+.header h1, h2, p {
   color: white;
-  text-align: right;
+  text-align: center;
   margin: 0px;
 }
 
@@ -14,9 +14,4 @@
   padding: 2rem;
   width: 100%;
   font-family: "GTEAPAC", sans-serif;
-}
-
-.logo h1{
-  font-family: "GTEAPAC", sans-serif;
-  text-align: center;
 }

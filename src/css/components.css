@@ -1,18 +1,25 @@
 .client{
-    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
+.content{
+  width: 100%;
+}
 .clients h1{
   padding: 0;
 }
 
 .client h2{
+  text-align: left;
   color: white;
   padding: 0;
+}
+
+.client p{
+    text-align: left;
 }
 
 .client h3{
@@ -22,8 +29,7 @@
 
 .contacts{
   display: inline-block;
-  margin: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .nav-links{
@@ -33,6 +39,7 @@
 .contacts h3{
   text-align: center;
   color: black;
+  padding: 2rem;
 }
 
 .footer {
