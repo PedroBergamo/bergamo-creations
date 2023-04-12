@@ -29,6 +29,12 @@
 .menu{
   padding: 4rem 0;
 }
+
+.menu-background{
+  position: sticky;
+  text-align: center;
+}
+
 .menu h1{
   color: black;
   padding: 4rem;

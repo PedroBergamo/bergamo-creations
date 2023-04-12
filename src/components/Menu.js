@@ -1,6 +1,8 @@
 import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
 
+import Mark from "../brand/mark/bergamoth-black.png";
+
 import Contacts from './Contacts.js';
 import "../css/Menu.css";
 import {
@@ -40,6 +42,8 @@ export default class Menu extends React.Component {
     render() {
         return (
           <div>
+
+
               <Slide
                 right
                 customBurgerIcon={ <img src={menu} alt="menu png"/>}
@@ -48,6 +52,7 @@ export default class Menu extends React.Component {
                 onStateChange={(state) => this.handleStateChange(state)}
               >
               <div className='menu'>
+                <img className="menu-background" src={Mark} width="200px" alt="mark"/>
                 <h1 style={{text_align:"left"}}>Menu</h1>
                 <div className="menu-button-list">
                   <ul>
