@@ -13,7 +13,7 @@ export default class Contacts extends React.Component {
     render() {
         return (
           <div className="contacts">
-                <h3>pedro@bergamocreations.com</h3>
+                <p>pedro@bergamocreations.com</p>
                 <Nav className="nav-links">
                 <Nav.Link
                     href="https://www.instagram.com/bergamocreations/"

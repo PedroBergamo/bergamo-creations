@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a166dc34.chunk.css",
-    "main.js": "/static/js/main.1196e208.chunk.js",
-    "main.js.map": "/static/js/main.1196e208.chunk.js.map",
+    "main.js": "/static/js/main.755c5065.chunk.js",
+    "main.js.map": "/static/js/main.755c5065.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cfa74d35.js",
     "runtime-main.js.map": "/static/js/runtime-main.cfa74d35.js.map",
     "static/css/2.5f99389d.chunk.css": "/static/css/2.5f99389d.chunk.css",
@@ -35,7 +35,7 @@
     "static/media/halo-6.a40d3c9f.jpg": "/static/media/halo-6.a40d3c9f.jpg",
     "static/media/halo-7.82192c75.jpg": "/static/media/halo-7.82192c75.jpg",
     "static/media/halo-8.30015832.jpg": "/static/media/halo-8.30015832.jpg",
-    "static/media/halo-9.1b71badc.jpg": "/static/media/halo-9.1b71badc.jpg",
+    "static/media/halo-9.9ed39c31.jpg": "/static/media/halo-9.9ed39c31.jpg",
     "static/media/inke-virta.d8f71838.jpg": "/static/media/inke-virta.d8f71838.jpg",
     "static/media/loska.9c1750da.jpg": "/static/media/loska.9c1750da.jpg",
     "static/media/vimma-Antrasiitille.f06be7ea.jpg": "/static/media/vimma-Antrasiitille.f06be7ea.jpg",
@@ -51,6 +51,6 @@
     "static/css/2.5f99389d.chunk.css",
     "static/js/2.ba43499b.chunk.js",
     "static/css/main.a166dc34.chunk.css",
-    "static/js/main.1196e208.chunk.js"
+    "static/js/main.755c5065.chunk.js"
   ]
 }
