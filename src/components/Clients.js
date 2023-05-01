@@ -30,8 +30,6 @@ import Elias3 from "../images/clients/elias/Elias-3.jpg"
 import Elias4 from "../images/clients/elias/Elias-4.jpg"
 
 import Inke1 from "../images/clients/inke/Inke-1.jpg"
-import Inke2 from "../images/clients/inke/Inke-2.jpg"
-
 import Inke3 from "../images/clients/inke/Inke-3.jpg"
 import Inke4 from "../images/clients/inke/Inke-4.jpg"
 import Inke5 from "../images/clients/inke/Inke-5.jpg"

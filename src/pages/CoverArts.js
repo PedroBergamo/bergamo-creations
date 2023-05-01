@@ -7,6 +7,7 @@ import EneWave from "../images/coverarts/ene-wave.jpg"
 import Antrasiitille from "../images/coverarts/vimma-Antrasiitille.jpg"
 import Virta from "../images/coverarts/inke-virta.jpg"
 import Sateenkaari from "../images/coverarts/vimma-Sateenkaari.jpg"
+import Loska from "../images/coverarts/loska.jpg"
 
 function CoverArts() {
   return (
@@ -16,6 +17,8 @@ function CoverArts() {
       <h1 style={{textAlign: "center"}}>Cover Arts</h1>
 
       <Col xs={12} sm={6}>
+
+
         <div className="song-card">
         <p style={{color: "white"}}>Vimma - Antrasiitille</p>
           <img src={Antrasiitille} width="100%" alt=""/>
@@ -44,6 +47,16 @@ function CoverArts() {
         </Col>
 
         <Col xs={12} sm={6}>
+          <div className="song-card">
+          <p style={{color: "white"}}>Loska - Mania</p>
+            <img src={Loska} width="100%" alt=""/>
+            <iframe className="spotify"
+             title="Mania" src="https://open.spotify.com/embed/track/150Qj3XEfOo3IxkjgLd3NM?utm_source=generator&theme=0"
+            seamless>
+            </iframe>
+          </div>
+
+
           <div className="song-card">
             <p style={{color: "white"}}>Inke Launi - Virta</p>
             <img src={Virta} width="100%" alt=""/>
