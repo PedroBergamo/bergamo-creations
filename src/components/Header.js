@@ -16,7 +16,7 @@ export default class Header extends React.Component {
             <div className="splash-elements">
             <img src={Mark} width="40%" alt="mark"/>
               <h1>Bergamo Creations</h1>
-              <p>Eccentrify your identity</p>
+              <p>Brand new worlds</p>
             </div>
           </div>
         );

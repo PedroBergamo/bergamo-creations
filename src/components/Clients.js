@@ -27,6 +27,7 @@ import Halophones9 from "../images/clients/halophones/halo-9.jpg"
 import Elias1 from "../images/clients/elias/Elias-1.jpg"
 import Elias2 from "../images/clients/elias/Elias-2.jpg"
 import Elias3 from "../images/clients/elias/Elias-3.jpg"
+import Elias4 from "../images/clients/elias/Elias-4.jpg"
 
 import Inke1 from "../images/clients/inke/Inke-1.jpg"
 import Inke2 from "../images/clients/inke/Inke-2.jpg"
@@ -68,7 +69,7 @@ const Clients = () => {
       </Swiper>
       </Col>
       <Col xs={12} sm={6}>
-      <h3>Rebranding / Photoshoot</h3>
+      <h3>Rebranding</h3>
       <h1>The Halophones</h1>
       <p>
        On October of 2022 I was commissioned to rethink the identity of
@@ -126,12 +127,13 @@ const Clients = () => {
           <SwiperSlide><img src={Elias1} width="100%" alt=""/></SwiperSlide>
           <SwiperSlide><img src={Elias2} width="100%" alt=""/></SwiperSlide>
           <SwiperSlide><img src={Elias3} width="100%" alt=""/></SwiperSlide>
+          <SwiperSlide><img src={Elias4} width="100%" alt=""/></SwiperSlide>
         </Swiper>
 
 
       </Col>
       <Col xs={12} sm={6}>
-        <h3>Brand / Web design / Cover Arts</h3>
+        <h3>Brand / Cover Arts</h3>
         <h1>Elias Nieminen Ensemble</h1>
         <p>
         Elias Nieminen Ensemble is a genre-crossing project led by the young Finnish drummer-composer Elias Nieminen. For his brand, the composer wanted a sober, sensitive yet energetic visual representation.
@@ -153,7 +155,6 @@ const Clients = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide><img src={Inke1} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide><img src={Inke2} width="100%" alt=""/></SwiperSlide>
           <SwiperSlide> <img src={Inke3} width="100%" alt=""/></SwiperSlide>
           <SwiperSlide> <img src={Inke4} width="100%" alt=""/></SwiperSlide>
           <SwiperSlide> <img src={Inke5} width="100%" alt=""/></SwiperSlide>
