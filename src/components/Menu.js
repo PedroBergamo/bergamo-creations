@@ -1,7 +1,7 @@
 import React from 'react';
 import { slide as Slide } from 'react-burger-menu';
 
-import Mark from "../brand/mark/bergamoth-black.png";
+import Mark from "../brand/mark/mark-black-web.png";
 
 import Contacts from './Contacts.js';
 import "../css/Menu.css";

@@ -1,6 +1,6 @@
 .client{
   padding: 7%;
-  }
+}
 
 .content{
   width: 100%;
@@ -28,7 +28,7 @@
 
 .contacts{
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 .nav-links{

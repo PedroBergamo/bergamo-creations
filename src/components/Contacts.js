@@ -13,7 +13,7 @@ export default class Contacts extends React.Component {
     render() {
         return (
           <div className="contacts">
-                <p>pedro@bergamocreations.com</p>
+                <p style={{color:"black", padding: "0"}}>pedro@bergamocreations.com</p>
                 <Nav className="nav-links">
                 <Nav.Link
                     href="https://www.instagram.com/bergamocreations/"
@@ -45,7 +45,6 @@ export default class Contacts extends React.Component {
                         alt="Etsy"
                         style={navObj.linkStyle}
                     >
-                        <span className="fa fa-etsy black" style={{fontSize: '40px'}}></span>
                     </Nav.Link>
 
                 </Nav>
