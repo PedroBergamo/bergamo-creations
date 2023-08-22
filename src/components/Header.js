@@ -3,7 +3,7 @@ import "../css/Header.css";
 import Menu from "./Menu.js";
 
 import {Row} from "react-bootstrap"
-import Mark from "../brand/mark/bergamoth.png";
+import Mark from "../brand/mark/mark-white-BC-web.png";
 
 
 export default class Header extends React.Component {
@@ -12,11 +12,12 @@ export default class Header extends React.Component {
           <div className="header" id="myHeader">
           <Row>
             <Menu/>
-          </Row>
+            <img className="mark-b" src={Mark} alt=""/>
+
+            </Row>
             <div className="splash-elements">
-            <img src={Mark} width="40%" alt="mark"/>
-              <h1>Bergamo Creations</h1>
-              <p>Brand new worlds</p>
+              <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
+              <p>Saint Augustine</p>
             </div>
           </div>
         );
