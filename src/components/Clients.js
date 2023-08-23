@@ -44,7 +44,7 @@ var InkeDescription = "Inke Launi is a Finnish alternative rock band led by the 
 
 const Clients = () => {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
+    ReactGA.pageview(window.location.pathname);
   },[]);
 
   return (

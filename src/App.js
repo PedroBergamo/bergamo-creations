@@ -14,8 +14,6 @@ ReactGA.initialize(TrackingID);
 
 function App() {
 return (
-
-
     <HashRouter>
       <Header />
       <Switch>
