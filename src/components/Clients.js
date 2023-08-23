@@ -1,9 +1,11 @@
-
+import {useEffect} from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 
 import {Row, Col} from "react-bootstrap"
 import "../css/components.css"
+
+import ReactGA from "react-ga";
 
 import 'swiper/swiper.min.css';
 import 'swiper/modules/pagination/pagination.min.css';
@@ -41,6 +43,10 @@ var InkeSite = "https://www.inkelauni.com";
 var InkeDescription = "Inke Launi is a Finnish alternative rock band led by the singer-songwriter Elina Launimaa. Her nature-inspired brand aims to be a voice for melancholic souls."
 
 const Clients = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  },[]);
+
   return (
     <div className="content">
     <h1 style={{textAlign:"center"}}>Portfolio</h1>
