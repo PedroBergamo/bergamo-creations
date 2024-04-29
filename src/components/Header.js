@@ -12,12 +12,12 @@ export default class Header extends React.Component {
           <div className="header" id="myHeader">
           <Row>
             <Menu/>
-            <img className="mark-b" src={Mark} alt=""/>
 
+            <img className="mark-background" src={Mark} alt=""/>
             </Row>
             <div className="splash-elements">
-              <h1>Symbols are powerful because they are visible signs of invisible realities</h1>
-              <p>Saint Augustine</p>
+
+              <h1>Bergamo Creations</h1>
             </div>
           </div>
         );
