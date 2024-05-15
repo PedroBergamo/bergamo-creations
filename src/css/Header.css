@@ -6,7 +6,6 @@
   width: 100%;
   text-align: center;
   height: 100vh;
-
 }
 
 .splash-elements{
@@ -25,20 +24,11 @@
   text-align: center;
 }
 
-.mark-b{
-  width: 20%;
-  height: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-
 .mark-background{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  opacity: 10%;
+  width: 40%;
+  opacity: 15%;
 
 }
