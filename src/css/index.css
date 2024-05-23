@@ -28,10 +28,11 @@ body {
 }
 
 h1 {
-  font-family: "Wellingtons", sans-serif;
+  font-family: "antina", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   font-size: calc(48px + 1vw);
-  letter-spacing: 1rem;
   width:100%;
   color: white;
   text-align: left;
@@ -40,19 +41,23 @@ h1 {
 }
 
 h2 {
-  font-family: "Wellingtons", sans-serif;
-  font-size: calc(32px + 1vw);
+  font-family: "antina", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: calc(10em + 1vw);
   text-transform: uppercase;
-  letter-spacing: 1rem;
   color: white;
   line-height: auto;
   text-align: left;
 }
 
 h3{
-  font-family: "Wellingtons", sans-serif;
+
+  font-family: "antina", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: white;
-  font-size: calc(1em + 1vw);
+  font-size: calc(3em + 1vw);
   text-align: left;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -62,7 +67,9 @@ h3{
 h4,
 h5,
 p {
-  font-family: "Wellingtons", sans-serif;
+  font-family: "owners-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: white;
   text-align: left;
   font-size: calc(14px + 1vmin);

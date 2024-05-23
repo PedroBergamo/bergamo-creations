@@ -74,16 +74,16 @@ const Clients = () => {
       </Col>
       <Col xs={12} sm={6}>
       <h3>Rebranding</h3>
-      <h1>The Halophones</h1>
+      <h2>The Halophones</h2>
       <p>
-       On October of 2022 I was commissioned to rethink the identity of
+       On October of 2022 I was commissioned to rethink the visual identity of
        the rock band “The Halophones” for their new upcoming release. The
        re-branding aimed to speak straight to Indie music appreciators but
        also with the more wreckless members of their fanbase.
        </p>
 
-        <p><a className="text_link" href={HalophonesLink} target="_blank"
-        rel="noreferrer">The Halophones IG</a></p>
+        <h3><a className="text_link" href={HalophonesLink} target="_blank"
+        rel="noreferrer">The Halophones IG</a></h3>
        </Col>
 
     </Row>
@@ -108,72 +108,16 @@ const Clients = () => {
       </Col>
       <Col xs={12} sm={6}>
         <h3>Rebranding / Cover Arts</h3>
-        <h1>Vimma</h1>
+        <h2>Vimma</h2>
         <p>
-        For their new album, Vimma wanted a more modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violin riffs.
+        For their new album, Vimma wanted a modern and accessible representation of their Helsinki-based folk band, which takes high inspiration in climate activism and community building to write their emotional lyrics and captivating violin riffs.
         </p>
-        <p><a className="text_link" href={VimmaSite} target="_blank"
-        rel="noreferrer">Vimma website</a></p>
+        <h3><a className="text_link" href={VimmaSite} target="_blank"
+        rel="noreferrer">Vimma website</a></h3>
 
       </Col>
       </Row>
 
-    <Row
-      className="client elias">
-      <Col xs={12} sm={6}>
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar]}
-          pagination={{ clickable: true }}
-          slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          <SwiperSlide><img src={Elias1} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide><img src={Elias2} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide><img src={Elias3} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide><img src={Elias4} width="100%" alt=""/></SwiperSlide>
-        </Swiper>
-
-
-      </Col>
-      <Col xs={12} sm={6}>
-        <h3>Brand / Cover Arts</h3>
-        <h1>Elias Nieminen Ensemble</h1>
-        <p>
-        Elias Nieminen Ensemble is a genre-crossing project led by the young Finnish drummer-composer Elias Nieminen. For his brand, the composer wanted a sober, sensitive yet energetic visual representation.
-        </p>
-        <p><a className="text_link" href={EliasSite} target="_blank"
-        rel="noreferrer">Elias website</a></p>
-      </Col>
-    </Row>
-
-    <Row
-      className="client">
-
-      <Col xs={12} sm={6}>
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar]}
-          pagination={{ clickable: true }}
-          slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          <SwiperSlide><img src={Inke1} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide> <img src={Inke3} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide> <img src={Inke4} width="100%" alt=""/></SwiperSlide>
-          <SwiperSlide> <img src={Inke5} width="100%" alt=""/></SwiperSlide>
-        </Swiper>
-
-
-      </Col>
-      <Col xs={12} sm={6}>
-        <h3>Brand / Website</h3>
-        <h1>Inke Launi</h1>
-              <p>{InkeDescription}</p>
-        <p><a className="text_link" href={InkeSite} target="_blank"
-        rel="noreferrer">Inke Launi website</a></p>
-      </Col>
-      </Row>
     </div>
     );
 };
