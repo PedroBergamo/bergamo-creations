@@ -3,7 +3,7 @@ import "../css/Header.css";
 import Menu from "./Menu.js";
 
 import {Row} from "react-bootstrap"
-import Logo from "../brand/logo/BC-logo-pink.png";
+import Logo from "../brand/logo/BC-logo-pink.svg";
 
 
 export default class Header extends React.Component {
@@ -12,8 +12,7 @@ export default class Header extends React.Component {
           <div className="header" id="myHeader">
           <Row>
             <Menu/>
-
-            </Row>
+          </Row>
             <div className="splash-elements">
             <img className="logo" src={Logo} alt=""/>
               <h3>Strategic designs for rebellious brands</h3>

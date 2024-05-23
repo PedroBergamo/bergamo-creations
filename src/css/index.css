@@ -4,21 +4,6 @@ body {
   background: rgb(0,0,0);
 }
 
-@font-face {
-  font-family: 'GTEAPAC';
-  src: url('../brand/GTEAPAC.otf');
-}
-
-@font-face {
-  font-family: 'ShareTech';
-  src: url('../fonts/ShareTech.ttf');
-}
-
-@font-face {
-  font-family: 'Wellingtons';
-  src: url('../brand/Wellingtons.otf');
-}
-
 .white {
   color: #C6C6C6;
 }
@@ -32,7 +17,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
-  font-size: calc(48px + 1vw);
+  font-size: calc(72px + 5vw);
   width:100%;
   color: white;
   text-align: left;
@@ -82,7 +67,7 @@ p {
 }
 
 a {
-  color: #DA8CFF;
+  color: #ff0054;
 }
 
 ul{

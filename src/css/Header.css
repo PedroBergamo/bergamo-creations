@@ -16,17 +16,16 @@
   width: 50%;
   top:35%;
   left: 25%;
-
 }
 
 .header h3 {
-padding: 0%;
+padding: 0;
+margin-top: calc(1% - 3vw);
 text-align: center;
 }
 
 
 .logo{
-  margin-top: -20%;
   width: calc(40vw + 30px);
   text-align: center;
   padding-bottom: 0%;

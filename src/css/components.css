@@ -33,6 +33,7 @@
 
 .nav-links{
   text-align: right;
+  justify-content: center;
 }
 
 .contacts h3{
@@ -42,12 +43,13 @@
 }
 
 .footer {
-background-color: #DA8CFF;
+background-color: #ff0054;
 text-align: center;
 }
 
 .footer p {
-  color:black;
+  color: black;
+  text-align: center;
 }
 
 .footer h1 {
@@ -59,6 +61,7 @@ text-align: center;
   text-align: center;
   padding: 2rem;
 }
+
 
 .splash h1, h2, h3{
     padding: 1vh 10vh;

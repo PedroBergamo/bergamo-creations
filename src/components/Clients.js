@@ -26,21 +26,8 @@ import Halophones7 from "../images/clients/halophones/halo-7.jpg"
 import Halophones8 from "../images/clients/halophones/halo-8.jpg"
 import Halophones9 from "../images/clients/halophones/halo-9.jpg"
 
-import Elias1 from "../images/clients/elias/Elias-1.jpg"
-import Elias2 from "../images/clients/elias/Elias-2.jpg"
-import Elias3 from "../images/clients/elias/Elias-3.jpg"
-import Elias4 from "../images/clients/elias/Elias-4.jpg"
-
-import Inke1 from "../images/clients/inke/Inke-1.jpg"
-import Inke3 from "../images/clients/inke/Inke-3.jpg"
-import Inke4 from "../images/clients/inke/Inke-4.jpg"
-import Inke5 from "../images/clients/inke/Inke-5.jpg"
-
 var HalophonesLink = "https://www.instagram.com/thehalophones/";
 var VimmaSite = "https://www.vimmaband.com";
-var EliasSite = "https://www.behance.net/gallery/138157413/Elias-Nieminen-Ensemble-Brand-Book";
-var InkeSite = "https://www.inkelauni.com";
-var InkeDescription = "Inke Launi is a Finnish alternative rock band led by the singer-songwriter Elina Launimaa. Her nature-inspired brand aims to be a voice for melancholic souls."
 
 const Clients = () => {
   useEffect(() => {
