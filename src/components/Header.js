@@ -15,7 +15,7 @@ export default class Header extends React.Component {
 
             </Row>
             <div className="splash-elements">
-            <img src={Logo} alt=""/>
+            <img className="logo" src={Logo} alt=""/>
               <h3>Strategic designs for rebellious brands</h3>
             </div>
           </div>
