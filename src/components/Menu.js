@@ -11,7 +11,7 @@ import {
 
 import menu from "../images/Icons/menu.png"
 var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
-var Music = "https://www.pedrobergamo.com/"
+var Video = "https://www.youtube.com/watch?v=BUef_ICwNeM&list=PLjh5Csx-oIgDKpAUUU_5OXKC34Wk-JVrq"
 
 export default class Menu extends React.Component {
   constructor (props) {
@@ -42,8 +42,6 @@ export default class Menu extends React.Component {
     render() {
         return (
           <div>
-
-
               <Slide
                 right
                 customBurgerIcon={ <img src={menu} alt="menu png"/>}
@@ -60,11 +58,8 @@ export default class Menu extends React.Component {
                   "/design"><h2>Design</h2></Link></li>
                   <li onClick={() => this.closeMenu()}><Link className="menu_link" to=
                   "/CoverArts"><h2>Cover Arts</h2></Link></li>
-
                     <a onClick={() => this.closeMenu()} className="menu_link"
-                    href={Shop} target="_blank" rel="noreferrer"><h2>Shop</h2></a>
-                    <a onClick={() => this.closeMenu()} className="menu_link"
-                    href={Music} target="_blank" rel="noreferrer"><h2>Music</h2></a>
+                    href={Video} target="_blank" rel="noreferrer"><h2>Video</h2></a>
                     </ul>
                 </div>
               </div>
