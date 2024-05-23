@@ -10,7 +10,6 @@ import {
   } from 'react-router-dom';
 
 import menu from "../images/Icons/menu.png"
-var Shop = "https://www.etsy.com/fi-en/shop/Visibilium"
 var Video = "https://www.youtube.com/watch?v=BUef_ICwNeM&list=PLjh5Csx-oIgDKpAUUU_5OXKC34Wk-JVrq"
 
 export default class Menu extends React.Component {
